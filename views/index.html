@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>  <!-- action="api/shorturl/new" -->
+     <div>
+       <form action="/" method="POST">
+         <label for="url_input">1. URL to shorten</label>
+         <input id="url_input" type="text">
+         <input type="submit">
+       </form>
+     </div>
+     <div>
+       <form action="/api/shorturl/" method="POST">
+         <label for="input_url">2. URL to shorten</label>
+         <input id="input_url" type="text" name="longUrl">
+         <input type="submit">
+       </form>
+     </div>
+   </body>
+
+
+</html>
