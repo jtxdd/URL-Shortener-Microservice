@@ -1,0 +1,16 @@
+html {height:100%;}
+
+body {
+  height:100%;
+  font-family:calibri;
+  font-size:16pt;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:-5em;
+  flex-direction:column;
+}
+
+form {
+  padding:3em 0;
+}
